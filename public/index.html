@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+    <title>Document</title>
+</head>
+<style>
+    div#chat-window {
+        border: 1px solid black;
+    }
+    div#output {
+        border: 1px solid green;
+        background: #8080804d;
+        color: blue;
+        max-width: 400px;
+        padding-left: 40px;
+    }
+</style>
+
+<body>
+    <div id="mario-chat">
+        <div id="chat-window">
+            <div id="output">
+            </div>
+            <div id="feedback"></div>
+            <input type="text" id="handle" placeholder="user">
+            <input type="text" id="message" placeholder="message">
+            <button id="send">SEND</button>
+        </div>
+    </div>
+    <script src="chat.js "></script>
+
+</body>
+
+</html>
